@@ -5,36 +5,35 @@
       <title>Quiz Page</title>
       <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
       <link rel="stylesheet" href="css/general.css">
-      <link rel="stylesheet" href="css/homeCSS.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body>
-      <div id="leftSide">
+      <div class="leftSide">
         <div class="infoBar_user">
           <img src="img/userImg.png" alt="idPicture">
           <p>username</p>
         </div>
         <div class="regClasses">
-          <h2 class="infoBarClasses">Classes</h2>
+          <h2 class="infoBarClasses">Class 1</h2>
           <ul>
-            <li>class1</li>
-            <li>class2</li>
+            <li><a href="grades.html">Grades</li></a>
+            <li><a href="assignments.html">Assignments</li></a>
+            <li><a href="quizzes.html">Quizzes</li></a>
           </ul>
         </div>
       </div>
-      <div id="rightSide">
-        <h1>Home page, welcome home!</h1>
-        <input type="text" name="search" placeholder="Search..">
+      <div class="rightSide">
+        <h2>Question</h2>
+        <input type="radio" name="logintype" value="Answer one" id="r1">Answer1
         <p></p>
-        <h2>Results:</h2>
-        <ul>
-          <li><a href="www.google.com">English: Creative Writing</a></li>
-          <p></p>
-          <li><a href="www.google.com">Mathematicis: Algebra for fun</a></li>
-          <p></p>
-          <li><a href="www.google.com">Science: Chemistry 200</a></li>
-        </ul>
+        <input type="radio" name="logintype" value="Answer two" id="r2">Answer2
+        <p></p>
+        <input type="radio" name="logintype" value="Answer three" id="r3">Answer3
+        <p></p>
+        <input type="radio" name="logintype" value="Answer four" id="r4">Answer4
+        <p></p>
+        <input type="radio" name="logintype" value="Answer five" id="r5">Answer5
       </div>
     </body>
 </html>

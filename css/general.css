@@ -68,3 +68,9 @@ img{
 .infoBar_user img {
 	border-bottom: solid 3px #359;
 }
+
+.homeButton{
+  position: absolute;
+  bottom: 0;
+  left: 0;;
+}

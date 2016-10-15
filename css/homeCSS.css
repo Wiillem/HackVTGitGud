@@ -1,15 +1,49 @@
 /* This CSS is for the home.html */
 html{
   background-color: lightgrey;
+  font-family: 'Raleway', sans-serif;
+  color: #359;
 }
 
-.input[type=text] {
+input[type=text] {
     width: 130px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
 }
 
 /* When the input field gets focus, change its width to 100% */
 input[type=text]:focus {
     width: 90%;
+}
+
+.lesson_result{
+	width: calc(100% - 40px);
+	margin: 10px 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: white;
+	box-shadow: 0 0 10px #888;
+	border-radius: 6px;
+}
+.lesson_result h3{
+	margin: 3px;
+}
+.home_top {
+	background-color: white;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-left: -20px;
+	box-shadow: 0 0 10px #888;
+}
+.infoBar_user img {
+	border-bottom: solid 3px #359;
 }

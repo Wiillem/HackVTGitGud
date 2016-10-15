@@ -1,0 +1,9 @@
+.rightSide p {
+  display: inline-block;
+}
+
+.begin {
+  float: right;
+  margin-top: 8px;
+  color: #359;
+}

@@ -44,3 +44,6 @@ input[type=text]:focus {
 	margin-left: -20px;
 	box-shadow: 0 0 10px #888;
 }
+.infoBar_user img {
+	border-bottom: solid 3px #359;
+}

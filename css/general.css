@@ -31,7 +31,7 @@ img{
 
 #userRole {
   padding-bottom: 10px;
-  border-bottom: 2px solid black;
+  border-bottom: 3px solid #359;
 }
 
 .infoBarUserInfo {
@@ -50,7 +50,7 @@ img{
 .regClasses ul li {
   list-style: none;
   border-radius: 5px;
-  background-color: darkcyan;
+  background-color: #359;
   color: white;
   text-align: center;
   padding: 5px 5px;

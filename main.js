@@ -3,7 +3,7 @@ user.name = "";
 user.status = "";
 user.pic = '<img src="img/userImg.png">';
 user.lessons = [];
-user.lessonsEnroled = [];
+user.lessonsEnrolled = [];
 
 function login(){
 	user.name = document.getElementById("userName").value;

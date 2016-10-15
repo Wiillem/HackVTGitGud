@@ -1,18 +1,22 @@
 *{font-family: 'Raleway', sans-serif;}
 
 .leftSide{
-  background-color: lightgreen;
+  background-color: white;
   width: 200px;
-  float: left;
   height: 100vh;
+  box-shadow: 0 0 10px #888;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
-
+.leftSide p, h2{
+  padding: 10px;
+}
 .rightSide{
-  background-color: darkgrey;
+  background-color: lightgrey;
   width: calc(100% - 220px);
   float: right;
   height: 100vh;
-  padding-left: 20px;
 }
 
 body{

@@ -22,8 +22,16 @@ input[type=text]:focus {
 	padding: 10px;
 	box-sizing: border-box;
 	background-color: white;
-	box-shadow: 0 0 10px black;
+	box-shadow: 0 0 10px #888;
+	border-radius: 6px;
 }
 .lesson_result h3{
 	margin: 3px;
+}
+.home_top {
+	background-color: white;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-left: -20px;
+	box-shadow: 0 0 10px #888;
 }

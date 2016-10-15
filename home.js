@@ -12,6 +12,12 @@ function removeLesson(index){
 	render();
 }
 
+function toLesson(intex){
+	localStorage.setItem('user', JSON.stringify(user));
+	localStorage.setItem('index', intex);
+	window.location = "lesson.html";
+}
+
 function render(){
 	document.getElementById("userName").innerHTML = user.name;
 	document.getElementById("userRole").innerHTML = user.status;

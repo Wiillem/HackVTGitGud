@@ -1,9 +1,8 @@
-console.log(httpGet(window.location.href));
+var user = JSON.parse(localStorage.getItem("user"));
+console.log(user);
+document.getElementById("userName").innerHTML = user.name;
+document.getElementById("userRole").innerHTML = user.status;
+var classArr = [];
+fucntion displayLesson(){
 
-function httpGet(theUrl)
-{
-    var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
-    xmlHttp.send( null );
-    return xmlHttp.responseText;
 }

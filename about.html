@@ -63,8 +63,8 @@
 				margin:auto;
 			}
 			#container{
-				width:80%
-				
+				width:1000px;
+				margin:0;
 			}
 			#maintitle{
 				width:100%;
@@ -88,7 +88,9 @@
 				float:right;
 			}
 			.hide{
-				visibility:hidden;
+				display:none;
+				transition: display 0s,opacity 1s;
+				opacity:0%;
 			}
 			.button{
 				width:200px;
@@ -97,6 +99,38 @@
 				border-radius:10px;
 			}
 		</style>
+		<script>
+				console.log("4 fucknig reeeel");
+				
+				var vis1 = true;
+				var vis2 = false;
+				//var graph1 = document.getElementsByClassName("show")[0];
+				//var graph2 = document.getElementsByClassName("hide")[0];
+				console.log(graph1);
+				
+				
+				
+				function swap(){
+					//
+					//element1.className = "hide";
+					//element2.className = "show";
+					//console.log("Why cant i die");
+					
+					if(vis1){
+						$(".show").css("display", "none");
+						vis1 = false;
+						$(".hide").css("display", "inline");
+						vis2 = true;
+						
+					} else {
+						$(".hide").css("display", "none");
+						vis1 = true;
+						$(".show").css("display", "inline");
+						vis2 = false;
+					}
+					
+				}
+		</script>
 	</head>
 	<body>
 		<div id="container">
@@ -107,16 +141,16 @@
 			</div>
 			<!-- Then some graphs-->
 			<div id="graphContainer">
-				<div id="graph1">
+				<div id="graph1" class="show">
 					<h3>The First Graph</h3>
 					<canvas></canvas>
-					<p class="explain"><br><br><br>Baron Hayter, of Chislehurst in the County of Kent,[1] is a title in the Peerage of the United Kingdom. It was created in 1927 for the businessman Sir George Chubb, 1st Baronet. He had already been created a baronet of Newlands in the Baronetage of the United Kingdom in 1900.[2] Chubb was Chairman and Managing Director of the firm Chubb and Sons Lock and Safe Co Ltd, established by his grandfather Charles Chubb in the early 19th century.<br><br><br><div class="button">hey</div></p>
+					<p class="explain"><br><br><br>Baron Hayter, of Chislehurst in the County of Kent,[1] is a title in the Peerage of the United Kingdom. It was created in 1927 for the businessman Sir George Chubb, 1st Baronet. He had already been created a baronet of Newlands in the Baronetage of the United Kingdom in 1900.[2] Chubb was Chairman and Managing Director of the firm Chubb and Sons Lock and Safe Co Ltd, established by his grandfather Charles Chubb in the early 19th century.<br><br><br><div class="button" onclick='swap()'>hey</div></p>
 					
 				</div>
 				<div id="graph2" class="hide">
 					<h3>The Second Graph</h3>
 					<canvas></canvas>
-					<p class="explain"><br><br><br>In 1914, the US Congress appropriated $35 million for construction of the Alaska Railroad system, but work was delayed by the outbreak of World War I.[77] Three years later, the Alaska Railroad purchased the Tanana Valley Railroad, which had suffered from the wartime economic problems.[77] Rail workers built a line extending northwest from Fairbanks, then south to Nenana, where President Warren G. Harding hammered in the ceremonial final spike in 1923.<br><br><br><div class="button">hey</div></p>
+					<p class="explain"><br><br><br>In 1914, the US Congress appropriated $35 million for construction of the Alaska Railroad system, but work was delayed by the outbreak of World War I.[77] Three years later, the Alaska Railroad purchased the Tanana Valley Railroad, which had suffered from the wartime economic problems.[77] Rail workers built a line extending northwest from Fairbanks, then south to Nenana, where President Warren G. Harding hammered in the ceremonial final spike in 1923.<br><br><br><div class="button" onclick='swap()'>hey</div></p>
 				</div>
 			</div>
 		</div>

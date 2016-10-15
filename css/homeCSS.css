@@ -32,10 +32,11 @@ input[type=text]:focus {
 	box-sizing: border-box;
 	background-color: white;
 	box-shadow: 0 0 10px #888;
-	border-radius: 6px;
+	border-radius: 5px;
+    border-bottom: solid 3px #359;
 }
-.lesson_result h3{
-	margin: 3px;
+#lessonsResults .lesson_result a{
+	margin: 5px;
 }
 .home_top {
 	background-color: white;
@@ -45,4 +46,7 @@ input[type=text]:focus {
 }
 .infoBar_user img {
 	border-bottom: solid 3px #359;
+}
+#lessonsCurrent button{
+    display: none;
 }

@@ -21,6 +21,15 @@ html{
   float: right;
   height: 100vh;
 }
+.rightSide .lesson_result a{
+  font-size: 1.8em;
+  padding-top: 3px;
+}
+.rightSide .lesson_result button{
+  float: right;
+  margin-right:20px;
+  margin-top: -5px;
+}
 
 body{
   height: 100vh;
@@ -132,4 +141,14 @@ button {
   position: absolute;
   bottom: 50px;
   left: 50px;
+}
+.lesson_result{
+ margin: 40px auto;
+  max-width: 800px;
+  padding: 40px;
+  box-sizing: border-box;
+  color: #359;
+  background-color: white;
+  box-shadow: 0 0 10px #888;
+  border-radius: 5px;
 }

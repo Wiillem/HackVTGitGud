@@ -2,9 +2,9 @@ var user = {};
 user.name = "";
 user.status = "";
 user.pic = '<img src="img/userImg.png">';
-user.lessons = ['<div class="lesson_result"><a onclick="toLesson(0)">English: Creative Writing</a><button onclick="addLesson(0)">Enroll</button></div>',
- '<div class="lesson_result"><a onclick="toLesson(1)">Mathematicis: Algebra for fun</a><button onclick="addLesson(1)">Enroll</button></div>',
- '<div class="lesson_result"><a onclick="toLesson(2)">Science: Chemistry 200</a><button onclick="addLesson(2)">Enroll</button></div>'];
+user.lessons = ['<div class="lesson_result"><a onclick="toLesson(0)">English: Creative Writing</a><span>Enrolled: 12</span><button onclick="addLesson(0)">Enroll</button></div>',
+ '<div class="lesson_result"><a onclick="toLesson(1)">Mathematicis: Algebra for fun</a><span>Enrolled: 83</span><button onclick="addLesson(1)">Enroll</button></div>',
+ '<div class="lesson_result"><a onclick="toLesson(2)">Science: Chemistry 200</a><span>Enrolled: 56</span><button onclick="addLesson(2)">Enroll</button></div>'];
 
 var tempObj = [{
  			name: "English: Creative Writing",

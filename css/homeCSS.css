@@ -26,8 +26,6 @@ input[type=text]:focus {
 }
 
 .lesson_result{
-	width: calc(100% - 40px);
-	margin: 10px 20px;
 	padding: 10px;
 	box-sizing: border-box;
 	background-color: white;
@@ -42,5 +40,8 @@ input[type=text]:focus {
 	border-bottom: solid 3px #359;
 }
 #lessonsCurrent button{
+    display: none;
+}
+#lessonsCurrent span{
     display: none;
 }

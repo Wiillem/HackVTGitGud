@@ -3,6 +3,3 @@ console.log(user);
 document.getElementById("userName").innerHTML = user.name;
 document.getElementById("userRole").innerHTML = user.status;
 var classArr = [];
-fucntion displayLesson(){
-
-}

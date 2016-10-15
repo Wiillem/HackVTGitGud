@@ -71,6 +71,6 @@ img{
 
 .homeButton{
   position: absolute;
-  bottom: 0;
-  left: 0;;
+  bottom: 50px;
+  left: 50px;
 }

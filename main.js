@@ -8,18 +8,18 @@ user.lessons = ['<div class="lesson_result"><a onclick="toLesson(0)">English: Cr
 
 var tempObj = [{
  			name: "English: Creative Writing",
- 			decription: "Enter Class Description Here.Enter Class Description Here.Enter Class Description Here.Enter Class Description Here.",
+ 			decription: "This is a sample class, this is where a teacher can put a description of their class for students",
  			teacher: "Professor Plum"
  		},
  		{
  			name: "Mathematics: Algebra For Fun",
- 			decription: "Enter Class Description Here.Enter Class Description Here.Enter Class Description Here.Enter Class Description Here.",
+ 			decription: "This is a sample class, this is where a teacher can put a description of their class for students",
  			teacher: "Professor Dumbledore"
  		},
  		{
  			name: "Science: Chemistry 200",
- 			decription: "Enter Class Description Here.Enter Class Description Here.Enter Class Description Here.Enter Class Description Here.",
- 			teacher: "Snape"
+ 			decription: "This is a sample class, this is where a teacher can put a description of their class for students",
+ 			teacher: "Brofessor Snape"
  		}];
 console.log(tempObj);
 user.lessonsData = tempObj;

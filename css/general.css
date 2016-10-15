@@ -56,3 +56,15 @@ img{
   padding: 5px 5px;
   margin-bottom: 10px;
 }
+
+.rightSide h1, .rightSide h2, .rightSide h3, .rightSide p{
+  margin-left: 20px;
+}
+
+.rightSide input{
+  margin-left: 40px;
+}
+
+.infoBar_user img {
+	border-bottom: solid 3px #359;
+}

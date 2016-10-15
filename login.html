@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="main.js"></script>
 </head>
 
 <body>
@@ -15,14 +16,15 @@
     <div>
       <form>
         username:<br>
-          <input type="text" name="username"><br>
+          <input type="text" name="username" id="userName"><br>
         password:<br>
           <input type="password" name="password"><br>
 
-          <input type="radio" name="logintype" value="teacher">Teacher
-          <input type="radio" name="logintype" value="student">Student
-          <input type="radio" name="logintype" value="studentguest">Student Guest
-          <br><input type="submit" value="Submit">
+          <input type="radio" name="logintype" value="teacher" id="r1">Teacher
+          <input type="radio" name="logintype" value="student" id="r2">Student
+          <input type="radio" name="logintype" value="studentguest" id="r3">Student Guest
+          <br>
       </form>
+      <button onclick="login()">Login</button>
     </div>
 </body>

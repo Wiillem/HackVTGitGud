@@ -1,10 +1,10 @@
-#leftSide{
+.leftSide{
   background-color: lightgreen;
   width: 20%;
   float: left;
 }
 
-#rightSide{
+.rightSide{
   background-color: darkgrey;
   width: 80%;
   float: right;

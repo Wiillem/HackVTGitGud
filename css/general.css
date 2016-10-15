@@ -73,7 +73,6 @@ img{
 .rightSide input{
   margin-left: 40px;
 }
-
 .infoBar_user img {
 	border-bottom: solid 3px #359;
 }
@@ -128,4 +127,9 @@ button {
   padding: 12px;
   border-radius: 10px;
   border: none;
+}
+.homeButton{
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
 }

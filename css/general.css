@@ -64,3 +64,7 @@ img{
 .rightSide input{
   margin-left: 40px;
 }
+
+.infoBar_user img {
+	border-bottom: solid 3px #359;
+}

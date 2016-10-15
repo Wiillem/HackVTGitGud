@@ -7,11 +7,12 @@ user.lessons = [];
 function login(){
 	user.name = document.getElementById("userName").value;
 	if(document.getElementById("r1").checked){
-		user.status = "teacher";
+		user.status = "Teacher";
 	} else {
-		user.status = "student";
+		user.status = "Student";
 	}
-	console.log(user);
+	localStorage.setItem('user', JSON.stringify(user));
+	window.location = "home.html";
 }
 
 function addLesson(lesson){

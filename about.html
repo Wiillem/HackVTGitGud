@@ -2,8 +2,101 @@
 	<head>
 		<link rel="stylesheet" href="css/index.css"/>
 		<script>
-			
+			var stateGradRate = {
+				al:75,
+				ak:70,
+				az:76,
+				ar:84,
+				ca:79,
+				co:75,
+				ct:85,
+				de:80,
+				dc:59,
+				fl:75,
+				ga:70,
+				hi:81,
+				il:82,
+				indiana:86,
+				ia:89,
+				ks:85,
+				la:72,
+				me:85,
+				md:84,
+				ma:85,
+				mi:76,
+				mn:78,
+				ms:75,
+				mo:84,
+				mt:84,
+				ne:88,
+				nv:63,
+				nh:86,
+				nj:86,
+				nm:70,
+				ny:77,
+				nc:80,
+				nd:87,
+				oh:81,
+				or:68,
+				pa:84,
+				ri:77,
+				sc:75,
+				sd:83,
+				tn:87,
+				tx:88,
+				ut:80,
+				vt:88,
+				va:83,
+				wa:77,
+				wv:79,
+				wi:88,
+				wy:79,
+				us:80,
+				years:"2011-2012"
+			}
 		</script>
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<script src="jaqe.js"></script>
+		<style>
+			.aboutPara{
+				width:300px;
+				margin:auto;
+			}
+			#container{
+				width:80%
+				
+			}
+			#maintitle{
+				width:100%;
+				text-align:center;
+			}
+			#aboutPara{
+				width:100%;
+				text-align:center;
+				margin:auto;
+			}
+			canvas{
+				width:600px;
+				height:450px;
+				border-radius:10px;
+				background-color:lime;
+				float:left;
+			}
+			.explain{
+				width:300px;
+				text-align:center;
+				float:right;
+			}
+			.hide{
+				visibility:hidden;
+			}
+			.button{
+				width:200px;
+				height:100px;
+				background-color:pink;
+				border-radius:10px;
+			}
+		</style>
 	</head>
 	<body>
 		<div id="container">
@@ -17,14 +110,13 @@
 				<div id="graph1">
 					<h3>The First Graph</h3>
 					<canvas></canvas>
-					<img src="img/sample2.jpg" alt="sample1" width="400" height="300">
-					<p>Baron Hayter, of Chislehurst in the County of Kent,[1] is a title in the Peerage of the United Kingdom. It was created in 1927 for the businessman Sir George Chubb, 1st Baronet. He had already been created a baronet of Newlands in the Baronetage of the United Kingdom in 1900.[2] Chubb was Chairman and Managing Director of the firm Chubb and Sons Lock and Safe Co Ltd, established by his grandfather Charles Chubb in the early 19th century.</p>
+					<p class="explain"><br><br><br>Baron Hayter, of Chislehurst in the County of Kent,[1] is a title in the Peerage of the United Kingdom. It was created in 1927 for the businessman Sir George Chubb, 1st Baronet. He had already been created a baronet of Newlands in the Baronetage of the United Kingdom in 1900.[2] Chubb was Chairman and Managing Director of the firm Chubb and Sons Lock and Safe Co Ltd, established by his grandfather Charles Chubb in the early 19th century.<br><br><br><div class="button">hey</div></p>
+					
 				</div>
-				<div id="graph2">
+				<div id="graph2" class="hide">
 					<h3>The Second Graph</h3>
 					<canvas></canvas>
-					<img src="img/sample1.jpg" alt="sample2" width="400" height="300">
-					<p>In 1914, the US Congress appropriated $35 million for construction of the Alaska Railroad system, but work was delayed by the outbreak of World War I.[77] Three years later, the Alaska Railroad purchased the Tanana Valley Railroad, which had suffered from the wartime economic problems.[77] Rail workers built a line extending northwest from Fairbanks, then south to Nenana, where President Warren G. Harding hammered in the ceremonial final spike in 1923.</p>
+					<p class="explain"><br><br><br>In 1914, the US Congress appropriated $35 million for construction of the Alaska Railroad system, but work was delayed by the outbreak of World War I.[77] Three years later, the Alaska Railroad purchased the Tanana Valley Railroad, which had suffered from the wartime economic problems.[77] Rail workers built a line extending northwest from Fairbanks, then south to Nenana, where President Warren G. Harding hammered in the ceremonial final spike in 1923.<br><br><br><div class="button">hey</div></p>
 				</div>
 			</div>
 		</div>

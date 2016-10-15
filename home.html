@@ -4,12 +4,13 @@
       <meta charset="utf-8">
       <title>Home Page</title>
       <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="css/general.css">
       <link rel="stylesheet" href="css/homeCSS.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body>
-      <div id="leftSide">
+      <div class="leftSide">
         <div class="infoBar_user">
           <img src="img/userImg.png" alt="idPicture">
           <p id="userName">User Name</p>
@@ -23,9 +24,18 @@
           </ul>
         </div>
       </div>
-      <div id="rightSide">
+      <div class="rightSide">
         <h1>Home page, welcome home!</h1>
         <input type="text" name="search" placeholder="Search..">
+        <p></p>
+        <h2>Results:</h2>
+        <ul>
+          <li><a href="www.google.com">English: Creative Writing</a></li>
+          <p></p>
+          <li><a href="www.google.com">Mathematicis: Algebra for fun</a></li>
+          <p></p>
+          <li><a href="www.google.com">Science: Chemistry 200</a></li>
+        </ul>
       </div>
     </body>
     <script type="text/javascript" src="home.js"></script>

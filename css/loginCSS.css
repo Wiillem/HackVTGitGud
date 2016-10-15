@@ -1,5 +1,8 @@
 body{
-  background-color: lightgray;
+  background: url('../img/loginB.jpg') no-repeat center;
+  background-size: cover;
+  padding-top: 40px;
+  box-sizing: border-box;
 }
 div{
   font-family: 'Raleway', sans-serif;
@@ -8,16 +11,20 @@ div{
   margin: auto;
   text-align: center;
   padding: 30px 15px 50px;
-  border-radius: 40px;
-  box-shadow: 4px 4px 4px gray;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #888;
 }
 
-p {
+p, span {
   margin-bottom: 2px;
+  font-size: 1.6em;
+  color: #359;
 }
 
 input {
   margin-bottom: 10px;
+  font-size: 1.5em;
+  color: #359;
 }
 #rua {
   margin-bottom: 10px;
@@ -39,4 +46,5 @@ h1 {
   color: #359;
   font-size: 50px;
   font-weight: 200;
+  margin-top: 0;
 }

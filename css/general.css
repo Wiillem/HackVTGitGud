@@ -152,3 +152,6 @@ button {
   box-shadow: 0 0 10px #888;
   border-radius: 5px;
 }
+.enrolledSpan {
+  margin-left: 20px;
+}

@@ -1,3 +1,5 @@
+console.log(httpGet(window.location.href));
+
 function httpGet(theUrl)
 {
     var xmlHttp = new XMLHttpRequest();

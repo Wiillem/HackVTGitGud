@@ -8,9 +8,9 @@ function addLesson(lesson){
 	user.lessons.push(lesson);
 }
 function removeLesson(lessonId){
-	foreach (userLesson in user.lessons){
-		if (userLesson.id == lessonId){
-			
+	for (var i = 0; i < user.lessons.length){
+		if (.user.lessons[i].id == lessonId){
+			user.lessons.splice(i, 1);
 		}
 	}
-}
+} 

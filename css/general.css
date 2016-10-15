@@ -1,11 +1,14 @@
 *{font-family: 'Raleway', sans-serif;}
-
+html{
+  height:100%;
+  background-color: lightgrey;
+}
 .leftSide{
   background-color: white;
   width: 200px;
   height: 100vh;
   box-shadow: 0 0 10px #888;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
 }
@@ -37,10 +40,13 @@ img{
 .infoBarUserInfo {
   text-align: center;
   font-weight: bold;
+  margin:0;
+  color: #359;
 }
 
 .infoBarClasses {
   text-align: center;
+  font-size: 1.4em;
 }
 
 .regClasses ul {
@@ -56,6 +62,9 @@ img{
   padding: 5px 5px;
   margin-bottom: 10px;
 }
+.regClasses a{
+  color: white;
+}
 
 .rightSide h1, .rightSide h2, .rightSide h3, .rightSide p{
   margin-left: 20px;
@@ -67,4 +76,56 @@ img{
 
 .infoBar_user img {
 	border-bottom: solid 3px #359;
+}
+.home_top {
+  padding: 20px;
+  color: white;
+  box-sizing: border-box;
+  box-shadow: 0 0 15px #444;
+  background: url('../img/topBanner.jpg') no-repeat center;
+  background-size: cover;
+}
+.home_top h1, h2{
+  text-align: center;
+  font-size:3.4em;
+  margin: 11px 0;
+}
+.home_top h2{
+  font-size:2.4em;
+}
+#mainContent, #classDescription{
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 40px;
+  box-sizing: border-box;
+  color: #359;
+  background-color: white;
+  box-shadow: 0 0 10px #888;
+  border-radius: 5px;
+}
+#mainContent p{
+  margin: 0;
+  font-size: 1.8em;
+}
+#classDescription{
+  font-size: 1.6em; 
+}
+#mainContent h2{
+  margin: 0;
+  font-size: 1.4em;
+  padding-top: 0;
+  text-align: left;
+}
+#mainContent textarea{
+  font-size: 1.4em;
+}
+#lessonsCurrent a{
+  color: #359;
+}
+button {
+  background-color: #359;
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
 }

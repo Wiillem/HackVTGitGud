@@ -1,0 +1,11 @@
+#leftSide{
+  background-color: lightgreen;
+  width: 20%;
+  float: left;
+}
+
+#rightSide{
+  background-color: darkgrey;
+  width: 80%;
+  float: right;
+}

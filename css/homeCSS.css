@@ -1,6 +1,8 @@
 /* This CSS is for the home.html */
 html{
   background-color: lightgrey;
+  font-family: 'Raleway', sans-serif;
+  color: #359;
 }
 
 .input[type=text] {
@@ -12,4 +14,16 @@ html{
 /* When the input field gets focus, change its width to 100% */
 input[type=text]:focus {
     width: 90%;
+}
+
+.lesson_result{
+	width: calc(100% - 40px);
+	margin: 10px 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: white;
+	box-shadow: 0 0 10px black;
+}
+.lesson_result h3{
+	margin: 3px;
 }

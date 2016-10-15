@@ -14,8 +14,14 @@ input[type=text]:focus {
     width: 100%;
 }
 
+#leftSide{
+  background-color: lightgreen;
+  width: 20%;
+  float: left;
+}
+
 #rightSide{
   background-color: darkgrey;
-  width: 70%;
+  width: 80%;
   float: right;
 }

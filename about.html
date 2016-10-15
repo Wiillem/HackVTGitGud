@@ -85,7 +85,6 @@
 			.explain{
 				width:300px;
 				text-align:center;
-				float:right;
 			}
 			.hide{
 				display:none;
@@ -97,6 +96,17 @@
 				height:100px;
 				background-color:pink;
 				border-radius:10px;
+				user-select:none;
+			}
+			img{
+				width:600px;
+				height:450px;
+			}
+			.endIt,span{
+				float:right;
+			}
+			.endIt{
+				height:200px;
 			}
 		</style>
 		<script>
@@ -143,14 +153,30 @@
 			<div id="graphContainer">
 				<div id="graph1" class="show">
 					<h3>The First Graph</h3>
-					<canvas></canvas>
-					<p class="explain"><br><br><br>Baron Hayter, of Chislehurst in the County of Kent,[1] is a title in the Peerage of the United Kingdom. It was created in 1927 for the businessman Sir George Chubb, 1st Baronet. He had already been created a baronet of Newlands in the Baronetage of the United Kingdom in 1900.[2] Chubb was Chairman and Managing Director of the firm Chubb and Sons Lock and Safe Co Ltd, established by his grandfather Charles Chubb in the early 19th century.<br><br><br><div class="button" onclick='swap()'>hey</div></p>
+					<img src="img/data1.png"/>
+					<div class="endIt"><p class="explain"><br>
+						The graduation average graduation rate in the US is 80% and no state is above 90%.  Some parts of the country are even lower,
+						such as the district of columbia at 59% and Oregon at 68%.
+						
+						This is trend shows and unnaceptably low rates should be addressed in the following ways:
+						<br>
+						<ul>
+							<li>Thing 1: this is a thing</li>
+							<li>Thing 2: this is a thing too</li>
+						</ul>
+					</p>
+					<span class="button" onclick='swap()'>Click me bb</span>
+					</div>
 					
 				</div>
 				<div id="graph2" class="hide">
 					<h3>The Second Graph</h3>
-					<canvas></canvas>
-					<p class="explain"><br><br><br>In 1914, the US Congress appropriated $35 million for construction of the Alaska Railroad system, but work was delayed by the outbreak of World War I.[77] Three years later, the Alaska Railroad purchased the Tanana Valley Railroad, which had suffered from the wartime economic problems.[77] Rail workers built a line extending northwest from Fairbanks, then south to Nenana, where President Warren G. Harding hammered in the ceremonial final spike in 1923.<br><br><br><div class="button" onclick='swap()'>hey</div></p>
+					<img src="img/data1.png"/>
+					<div class="endIt"><p class="explain"><br>
+					</p>
+					<span class="button" onclick='swap()'>Click me bb</span>
+					</div>
+
 				</div>
 			</div>
 		</div>

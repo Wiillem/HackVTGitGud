@@ -14,7 +14,7 @@
 }
 .rightSide{
   background-color: lightgrey;
-  width: calc(100% - 220px);
+  width: calc(100% - 200px);
   float: right;
   height: 100vh;
 }
